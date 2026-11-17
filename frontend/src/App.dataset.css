@@ -1,0 +1,44 @@
+
+
+/* Existing shipment dataset selector and actual outcome comparison */
+.dataset-selector {
+  margin: 4px 0 22px;
+  padding: 18px;
+  border: 1px solid #e5eaf1;
+  border-radius: 10px;
+  background: #f8faff;
+}
+.dataset-selector label {
+  display: block;
+  margin-bottom: 9px;
+  color: #334a65;
+  font-size: 14px;
+  font-weight: 600;
+}
+.dataset-selector select {
+  width: 100%;
+  min-height: 42px;
+  padding: 9px 12px;
+  border: 1px solid #d8e0eb;
+  border-radius: 7px;
+  background: #fff;
+  color: #26384e;
+}
+.dataset-selector .info-description { margin: 9px 0 0; }
+.dataset-selected-note {
+  margin: 0 0 18px;
+  padding: 11px 14px;
+  border-radius: 7px;
+  background: #edf7f2;
+  color: #24724f;
+  font-size: 13px;
+}
+.dataset-actual-results {
+  margin: 24px 0;
+  padding: 20px;
+  border: 1px solid #dce8f5;
+  border-radius: 10px;
+  background: #f8fbff;
+}
+.dataset-actual-results h3 { margin: 0 0 7px; color: #1d314b; }
+.dataset-actual-results > p { color: #8793a3; font-size: 13px; }

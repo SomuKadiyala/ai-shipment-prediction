@@ -1,0 +1,64 @@
+{
+    "model_name": "Random Forest Classifier",
+    "dataset_type": "Synthetic",
+    "total_records": 300,
+    "training_records": 240,
+    "testing_records": 60,
+    "accuracy": 1.0,
+    "labels": [
+        "Low",
+        "Medium",
+        "High"
+    ],
+    "classification_report": {
+        "Low": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 18.0
+        },
+        "Medium": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 12.0
+        },
+        "High": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 30.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 60.0
+        },
+        "weighted avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 60.0
+        }
+    },
+    "confusion_matrix": [
+        [
+            18,
+            0,
+            0
+        ],
+        [
+            0,
+            12,
+            0
+        ],
+        [
+            0,
+            0,
+            30
+        ]
+    ],
+    "evaluation_note": "Evaluation on a held-out split of synthetic data. Results should not be interpreted as real-world validation."
+}
