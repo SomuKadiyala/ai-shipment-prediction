@@ -88,7 +88,7 @@ ai-shipment-prediction/
 │   ├── congestion_model_metrics.json
 │   └── evaluation charts
 ├── reports/
-│   └── technical report PDF (add the final report here)
+│   └── Aiqon_Port_Congestion_Technical_Report.pdf
 ├── .gitignore
 ├── requirements.txt
 └── README.md
@@ -196,7 +196,7 @@ High           0       0    30
 ### 1. Clone the repository
 
 ```powershell
-git clone https://github.com/YOUR-USERNAME/ai-shipment-prediction.git
+git clone https://github.com/SomuKadiyala/ai-shipment-prediction.git
 cd ai-shipment-prediction
 ```
 
@@ -264,7 +264,7 @@ The frontend's API service currently targets `http://127.0.0.1:8000`. Keep the b
 From the repository root:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/ai-shipment-prediction.git
+git clone https://github.com/SomuKadiyala/ai-shipment-prediction.git
 cd ai-shipment-prediction
 python3.12 -m venv .venv
 source .venv/bin/activate
